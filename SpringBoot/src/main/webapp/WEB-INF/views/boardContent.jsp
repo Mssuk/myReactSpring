@@ -6,7 +6,7 @@ uri="http://java.sun.com/jsp/jstl/fmt"%>
 <html>
   <head>
     <title>글 상세보기</title>
-    <link rel="stylesheet" href="/static/css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <section>
@@ -55,8 +55,13 @@ uri="http://java.sun.com/jsp/jstl/fmt"%>
         </tr>
       </table>
 
-      <button class="leafBtn" onclick="location.href='/board.io'">목록</button>
-      <button class="leafBtn" onclick="location.href='/board/post/${bdto.BId}'">
+      <button class="leafBtn" onclick="location.href='../board.io'">
+        목록
+      </button>
+      <button
+        class="leafBtn"
+        onclick="location.href='../board/post/${bdto.BId}'"
+      >
         수정
       </button>
       <form style="display: inline;" action="${bdto.BId}" method="post">

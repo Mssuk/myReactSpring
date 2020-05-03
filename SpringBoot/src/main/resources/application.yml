@@ -13,19 +13,18 @@ spring:
     view:
       prefix: /WEB-INF/views/
       suffix: .jsp
-    static-path-pattern: /static/**
+
     hiddenmethod:
       filter:
         enabled: true
+    
+
 
   devtools:
     livereload:
       enabled: true
   freemarker:
     cache: false
-
-  resources:
-    static-locations: classpath:/static/
 
 
 mybatis:
@@ -41,3 +40,8 @@ logging:
           descriptor:
             sql:
               BasicBinder: TRACE
+
+
+server:
+  servlet:
+    context-path: /btest

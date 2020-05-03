@@ -7,7 +7,7 @@ uri="http://java.sun.com/jsp/jstl/fmt"%>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>게시글 목록</title>
-    <link rel="stylesheet" href="static/css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <section>
@@ -32,7 +32,7 @@ uri="http://java.sun.com/jsp/jstl/fmt"%>
           <tr>
             <td>${board.BId}</td>
             <td>
-              <a href="/board/${board.BId}" style="padding-left: ${indent}px">
+              <a href="board/${board.BId}" style="padding-left: ${indent}px">
                 <c:if test="${indent != 0}">
                   ┖
                 </c:if>

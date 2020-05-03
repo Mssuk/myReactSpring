@@ -4,8 +4,8 @@ contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
     <title>글쓰기</title>
-    <link rel="stylesheet" href="/static/css/style.css" />
-    <script src="/static/js/inputCheck.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/inputCheck.js"></script>
   </head>
   <body>
     <section>
