@@ -79,7 +79,7 @@ public class BoardController {
     public String reply(@RequestParam(value = "bid") int no, Model model) throws Exception {
         BoardVo dto = boardService.getPost(no);
         model.addAttribute("bdto", dto);
-        return "replyView";
+        return "replyWrite";
     };
 
     // 답글 달기
