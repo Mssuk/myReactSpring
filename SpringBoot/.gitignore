@@ -34,3 +34,6 @@ out/
 ### bin folder
 /bin/
 
+frontend
+node_modules
+
